@@ -7,3 +7,7 @@ jobs:
     steps: 
       - name: Print to console
         run: echo Hello GT Actions!
+      - name: Print few lines
+        run:  | 
+          echo First line!
+          echo  Second line!
